@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flower Table</title>
+  <style>
+    table {
+      border: 5px double black; /* double border around the table */
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid gray;
+      padding: 10px;
+    }
+    th {
+      background-color: lightpink;
+      color: darkred; /* header text color */
+    }
+    td {
+      color: darkgreen; /* normal text color */
+    }
+    tr:hover td {
+      color: purple; /* text color changes on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Flower</th>
+      <th>Quantity</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <td>Rose</td>
+      <td>15</td>
+      <td>Fresh</td>
+    </tr>
+    <tr>
+      <td>Lily</td>
+      <td>8</td>
+      <td>Low stock</td>
+    </tr>
+    <tr>
+      <td>Sunflower</td>
+      <td>20</td>
+      <td>In stock</td>
+    </tr>
+    <tr>
+      <td>Jasmine</td>
+      <td>5</td>
+      <td>Reorder</td>
+    </tr>
+  </table>
+
+</body>
+</html>
